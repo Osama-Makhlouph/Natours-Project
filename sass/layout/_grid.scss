@@ -6,9 +6,7 @@
          margin-bottom: $gutter-vertical;
          
     }  
-    [class^=col-]{
-        background-color: orangered;
-        color: white;
+    [class^=col-]{       
         float: left;
         &:not(:last-child){
             margin-right: $gutter-horizontal;
